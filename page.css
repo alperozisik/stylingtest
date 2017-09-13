@@ -1,0 +1,79 @@
+#pgDashboard #svInfo>layout>flexLayout {
+    flex-grow: 1;
+    min-width: 350;
+}
+
+#pgDashboard #svInfo>layout {
+    flexDirection: row;
+}
+
+#pgDashboard #svInfo>layout>flexLayout {
+    margin-right: 10;
+    min-width: 234;
+    flex-direction: row;
+}
+
+#pgDashboard #flUser {
+    flexDirection: column;
+    flex-wrap: wrap;
+}
+
+#pgDashboard #svInfo {
+    height: 90;
+}
+
+#pgDashboard label {
+    font-name: Lato;
+    font-size: 10;
+    text-color: #1D1D26;
+}
+
+#pgDashboard #imgUser {
+    image: fromFile(images: //lisa_town.png);
+    width: 60;
+    height: 60;
+}
+
+#pgDashboard label {
+    text-color: #202020;
+    width: 135;
+}
+
+#pgDashboard #lblUserName {
+    font-size: 18;
+}
+
+#pgDashboard #lblEmployeeId {
+    font-size: 16;
+}
+
+#pgDashboard #lblPosition {
+    font-size: 14;
+}
+
+#pgDashboard .vline {
+    position-type: absolute;
+    bottom: 12.5;
+    top: 0;
+    right: 0;
+}
+
+#pgDashboard .infoValue {
+    width: 40;
+    font-size: 25;
+}
+
+#pgDashboard .infoDescription {
+    flex-grow: 1;
+    font-size: 12;
+    text-color: #202020;
+}
+
+#pgDashboard #flTasks .infoValue{
+    text-color: #D11076;
+}
+
+#pgDashboard #flConversion .infoValue{
+    text-color: #4AA3F1;
+}
+

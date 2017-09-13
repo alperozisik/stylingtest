@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<page name="pgDashboard">
+    <layout>
+        <scrollView name="svMain" flexGrow="1">
+            <layout>
+                <scrollView id="svInfo">
+                    <layout>
+                        <flexLayout name="flUser">
+                            <imageView name="imgUser"></imageView>
+                            <label name="lblUserName">LISA TOWN</label>
+                            <label name="lblEmployeeId">EMPLOYEE ID: 1121</label>
+                            <label name="lblPosition">SILVERSTAR</label>
+                            <flexLayout class="vLine"></flexLayout>
+                        </flexLayout>
+                        <flexLayout name="flTasks">
+                            <label class="infoValue">3</label>
+                            <label class="infoDescription">TASKS PENDING</label>
+                            <flexLayout class="vLine"></flexLayout>
+                        </flexLayout>
+                        <flexLayout name="flConversion">
+                            <label class="infoValue">76%</label>
+                            <label class="infoDescription">Last Month Sales Conversion</label>
+                            <flexLayout class="vLine"></flexLayout>
+                        </flexLayout>
+                    </layout>
+                </scrollView>
+            </layout>
+        </scrollView>
+    </layout>
+    <statusBar visible="true" />
+    <headerBar visible="false"></headerBar>
+</page>
